@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background: #00aeb5;
+  height: 90vh;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+/* Navigation */
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.nav-items {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.nav-items .nav-4 {
+  border: 1px white solid;
+  padding: 0.3rem 1rem;
+  border-radius: 3px;
+  color: aliceblue;
+  align-self: center;
+  justify-self: center;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.logo {
+  color: white;
+  font-weight: bolder;
+}
+
+.nav-1,
+.nav-2,
+.nav-3,
+.nav-4 {
+  margin-left: 2rem;
+}
+.nav-1,
+.nav-2,
+.nav-3 {
+  padding: 0.3rem 0;
+}
+
+/* hero content */
+
+.hero-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image > img {
+  margin-top: -20px;
+}
+
+.hero-text {
+  margin-top: 80px;
+  padding-right: 11rem;
+}
+
+.hero-text > h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.hero-text > p {
+  margin-top: 2rem;
+  line-height: 1.6;
+  color: white;
+}
+.hero-text a img {
+  margin-top: 2rem;
+  height: 40px;
+  width: 130px;
+}
+
+/* Services */
+
+.services {
+  padding: 5rem 5rem;
+}
+
+.services > h2 {
+  color: #00aeb5;
+}
+
+.services-list {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+}
+
+.service-1 > h2,
+.service-2 > h2,
+.service-3 > h2,
+.service-4 > h2 {
+  padding-bottom: 0.3rem;
+  border-bottom: #00aeb5 1px solid;
+}
+
+.service-1 .pig {
+  color: #00aeb5;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.service-2 .city {
+  color: #00aeb5;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.service-3 .shield {
+  color: #00aeb5;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.service-4 .rocket {
+  color: #00aeb5;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.service-4 > p,
+.service-1 > p,
+.service-2 > p,
+.service-3 > p {
+  margin-top: 1rem;
+}
+
+.meet {
+  display: flex;
+  margin-top: 4rem;
+  width: 40%;
+}
+.sample-image {
+  margin-right: 2rem;
+}
+.sample-image > img {
+  height: 180px;
+  width: 200px;
+}
+
+.sample-text > h2 {
+  color: #00aeb5;
+  margin-bottom: 0.5rem;
+}
+
+.sample-text > .learn {
+  color: #00aeb5;
+}
+
+.solutions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 7rem;
+}
+
+.Payment > img {
+  margin-top: -80px;
+}
+
+.bottom {
+  margin-top: 12rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bottom-image > img {
+  height: 519px;
+  width: 305px;
+}
+
+.card {
+  width: 505px;
+  height: 519px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  justify-self: flex-end;
+}
+
+.card-header > i {
+  font-size: 80px;
+  color: #00aeb5;
+  margin-left: 2.5rem;
+}
+
+.card-header > p {
+  color: #00aeb5;
+  margin-left: 2rem;
+  align-self: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.card-header {
+  display: flex;
+}
+.book {
+  width: 50px;
+  height: 74px;
+}
+
+.features {
+  margin-top: 2rem;
+  line-height: 25px;
+}
+
+.eclipse {
+  background: #00aeb5;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+}
+
+.fea {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.features a img {
+  margin-top: 2rem;
+  height: 40px;
+  width: 130px;
+  margin-left: 2.5rem;
+}
