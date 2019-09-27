@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00aeb5;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  margin-right: 1rem;
+  font-weight: 500;
+  color: rgb(48, 47, 47);
+  padding: 0.2rem 0;
+}
+
+.item-4 {
+  border: 1px solid #00aeb5;
+  padding: 0.2rem 1.1rem;
+  border-radius: 4px;
+  color: white;
+  background: #00aeb5;
+  align-content: center;
+  justify-content: center;
+}
+
+.reg-heading {
+  text-align: center;
+  margin-top: 3rem;
+  color: #00aeb5;
+}
+
+.login-form > input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: white;
+  width: 100%;
+  border-radius: 5px;
+  border: #00aeb5 1px solid;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.login-form > input::placeholder {
+  color: rgb(100, 98, 98);
+}
+
+.login-form > .label {
+  width: 100%;
+  display: block;
+  margin-left: -130px;
+  margin-bottom: 0.3rem;
+  color: rgb(83, 82, 82);
+}
+
+.login-form > .label-1 {
+  width: 100%;
+  display: block;
+  margin-left: -145px;
+  margin-bottom: 0.3rem;
+  color: rgb(83, 82, 82);
+}
+
+.login-form > .label-2 {
+  width: 100%;
+  display: block;
+  margin-left: -115px;
+  margin-bottom: 0.3rem;
+  color: rgb(83, 82, 82);
+}
+
+.login-form > .button {
+  color: white;
+  background: #00aeb5;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 460px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+
+.info-text a > .red {
+  color: rgba(248, 10, 10, 0.897);
+}
+
+.info-text {
+  font-size: 14px;
+}
+
+.forgot > .forgot-text {
+  color: rgba(248, 10, 10, 0.897);
+  font-size: 14px;
+  margin-top: 1rem;
+  border-top: 0.5px solid rgba(44, 62, 80, 0.5);
+  padding-top: 1rem;
+}

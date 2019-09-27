@@ -10,6 +10,12 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
 header {
   background: #00aeb5;
   height: 90vh;
